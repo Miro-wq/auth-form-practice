@@ -1,4 +1,4 @@
-(https://miro-wq.github.io/auth-form-practice/)
+https://miro-wq.github.io/auth-form-practice/
 
 # Project Description:
 
