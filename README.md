@@ -12,7 +12,7 @@ Usage:
 Clone the repository to your local machine:
 ```bash
 git clone https://github.com/your-username/your-repo.git
-
+```
 Open the project directory in your preferred code editor.
 Explore the various authentication functions and iframe implementations provided in the project.
 Experiment with different authentication mechanisms and iframe configurations to understand their behavior and integration possibilities.
