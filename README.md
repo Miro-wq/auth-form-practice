@@ -11,8 +11,7 @@ Usage:
 
 Clone the repository to your local machine:
 ```bash
-git clone https://github.com/miro-wq/auth-form-practice
-.git
+git clone https://github.com/miro-wq/auth-form-practice.git
 ```
 Open the project directory in your preferred code editor.
 Explore the various authentication functions and iframe implementations provided in the project.
