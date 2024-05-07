@@ -1,18 +1,26 @@
-window.onload = function () {
-  const password = "053742";
-  const inputPassword = prompt("Introdu parola pentru a accesa site-ul:");
-
-  if (inputPassword === null) {
-    // Utilizatorul a apăsat butonul "Anulează"
-    alert("Accesul la site a fost anulat.");
-  } else if (inputPassword === "") {
-    // Utilizatorul a introdus o parolă goală
-    alert("Parola nu poate fi goală! Accesul la site este restricționat.");
-  } else if (inputPassword === password) {
-    // Parola introdusă este corectă
-    window.location.href = "page.html";
-  } else {
-    // Parola introdusă este incorectă
-    alert("Parolă incorectă! Accesul la site este restricționat.");
+const overlay = document.createElement("div");
+overlay.classList.add("overlay");
+document.body.appendChild(overlay);
+overlay.innerHTML =
+  "<p>Conținutul este protejat. Te rugăm să te autentifici pentru a-l accesa.</p>";
+overlay.style.position = "fixed";
+overlay.style.top = "0";
+overlay.style.left = "0";
+overlay.style.width = "100%";
+overlay.style.height = "100%";
+overlay.style.backgroundColor = "red";
+overlay.style.color = "white";
+overlay.style.fontSize = "24px";
+overlay.style.display = "flex";
+overlay.style.justifyContent = "center";
+overlay.style.alignItems = "center";
+overlay.style.zIndex = "9999";
+function removeOverlay() {
+  const overlay = document.querySelector(".overlay");
+  if (overlay) {
+    overlay.remove();
   }
-};
+}
+// document.addEventListener("contextmenu", function (event) {
+//   event.preventDefault();
+// });

@@ -6,12 +6,23 @@
     <title>Autentificare</title>
   </head>
   <body>
+    <h1>DATA BREACHED</h1>
+    <iframe
+      src="/about.html"
+      width="50%"
+      height="100%"
+      frameborder="0"
+    ></iframe>
+    <!-- <iframe src="/page.html" width="50%" height="100%" frameborder="0"></iframe> -->
     <script>
       window.onload = function () {
-        redirectToLoginPage(); // Verifică automat la încărcarea paginii și redirecționează către pagina de autentificare
-
-        function redirectToLoginPage() {
-          window.location.href = "login.html"; // Redirecționează către pagina de autentificare
+        const password = "2";
+        const inputPassword = prompt("Introdu parola pentru a accesa site-ul:");
+        if (inputPassword === password) {
+          // window.location.href = "page.html";
+          removeOverlay();
+        } else {
+          alert("Parolă incorectă! Accesul la site este restricționat.");
         }
       };
     </script>
