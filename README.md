@@ -1,4 +1,4 @@
-pass to be used - "2" [https://miro-wq.github.io/auth-form-practice/]
+pass to be used - "2"
 
 # Project Description:
 
