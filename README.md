@@ -24,4 +24,4 @@ Contributions to this project are welcome! If you have ideas for improving authe
 
 # License:
 
-This project is licensed under the MIT License, allowing for open collaboration and reuse of the codebase.
+Distributed under the MIT License. See [MIT License](https://opensource.org/licenses/MIT) for more information.
